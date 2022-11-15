@@ -1,3 +1,4 @@
+import Head from "next/head"
 import ContainerLayout from "../../layout/ContainerLayout/ContainerLayout"
 
 const OurFleet = () => {
