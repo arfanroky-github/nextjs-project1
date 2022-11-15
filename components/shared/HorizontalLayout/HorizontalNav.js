@@ -8,7 +8,7 @@ const HorizontalNav = () => {
         {id: 3, name: 'Service Rates', path: '/servicerates'},
         {id: 4, name: 'Features', path: '/features'},
         {id: 5, name: 'About Us', path: '/aboutus'},
-        {id: 5, name: 'Contact Us', path: '/contactus'},
+        {id: 6, name: 'Contact Us', path: '/contactus'},
     ]
 
 

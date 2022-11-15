@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import ContainerLayout from '../layout/ContainerLayout/ContainerLayout'
 
+
 export default function Home() {
+
   return (
     <>
        <ContainerLayout bgColor='black'>
