@@ -6,11 +6,18 @@ import { useRef } from 'react';
 
 
 function MyApp({ Component, pageProps }) {
-  const queryClient = useRef(new QueryClient());
-  
+
+  const queryClient = new QueryClient({
+    defaultOptions: {
+      queries: {
+        retry: false,
+      },
+    },
+  });
+
   return (
-    <QueryClientProvider client={queryClient.current}>
-      <Hydrate state={pageProps.dehydratedState} />
+    <QueryClientProvider client={queryClient}>
+      {/* <Hydrate state={pageProps.dehydratedState} /> */}
       <HorizontalLayout>
       <Component {...pageProps} />
     </HorizontalLayout>

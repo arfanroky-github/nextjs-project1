@@ -7,9 +7,11 @@ import Link from "next/link";
 const getData = async () => await (await fetch('https://jsonplaceholder.typicode.com/users')).json();
 
 const OurFleet = () => {
+
   const {data, isLoading, isFetching} = useQuery(['users'], getData);
 
   if(isLoading) return <div>Loading...</div>
+  console.log(data);
 
   return (
    <ContainerLayout bgColor={'purple'}>

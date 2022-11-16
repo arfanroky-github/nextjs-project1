@@ -4,6 +4,7 @@ const HorizontalNav = () => {
 
     const menus = [
         {id: 1, name: 'Home', path: '/'},
+        {id: 2, name: 'Users', path: '/users'},
         {id: 2, name: 'Our Fleet', path: '/ourfleet'},
         {id: 3, name: 'Service Rates', path: '/servicerates'},
         {id: 4, name: 'Features', path: '/features'},

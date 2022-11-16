@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Arfan Roky",
+      "position": "Front-End Developer"
+    },
+    {
+      "name": "Omee Bro",
+      "position": "Full-Stack Developer",
+      "id": 2
+    },
+    {
+      "name": "Kamrul king",
+      "position": "Backend Developer",
+      "id": 3
+    }
+  ]
+}
